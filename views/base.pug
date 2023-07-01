@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title Vatsal Dance Academy  
+    block scripts
+    block style 
+  body
+    nav#navbar 
+        ul
+            div#logo 
+                img(src="/static/img/logo.png", alt="Logo")
+                | VDA
+            li #[a(href='/') Home ]
+            li #[a(href='/') About ]
+            li #[a(href='/') Services ]
+            li #[a(href='/') Class Info ] 
+            li #[a(href='/contact') Contact US ]
+    block content
+    footer#footer
+        | Copyright &copy; 2023 VatsalDanceAcademy.com. | All rights Reserved.

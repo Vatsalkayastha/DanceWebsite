@@ -1,0 +1,171 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap'); */
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Ubuntu:wght@400;500&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Top Section of the navbar */
+
+/* logo of the page */
+
+#logo {
+  display: flex;
+  color: white;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 0px 20px;
+  /* height: 42px; */
+  font-size: 14px;
+  font-weight: 600;
+}
+
+#logo img {
+  height: 35px;
+}
+
+#navbar {
+  background-color: #f62d2de8;
+  padding: 18px 13px;
+}
+
+#navbar ul {
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center; */
+  font-family: "Merriweather", serif;
+  align-items: center;
+  /* margin: 19px 25px; */
+}
+
+#navbar li a {
+  color: white;
+  text-decoration: none;
+  padding: 11px 32px;
+  font-size: 1.1rem;
+}
+
+#navbar li a:hover {
+  color: rgb(33, 29, 27);
+  text-decoration: none;
+  padding: 11px 32px;
+  font-size: 1.1rem;
+}
+
+#navbar li {
+  list-style: none;
+}
+
+/* First section of the page */
+#introSection {
+  height: 400px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+  background: url("/static/bg.jpg") center center/cover no-repeat;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 45px;
+  padding-bottom: 50px;
+}
+
+#introSection div.small {
+  font-size: 30px;
+  margin: 18px;
+}
+
+/* Second Section of the page */
+#missionSection {
+  height: 300px;
+  width: 80%;
+  margin: auto;
+  /* background-color: #efbKC=7b7cc; */
+}
+
+#missionSection h2 {
+  text-align: center;
+  padding-top: 12px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* Making the cards */
+
+.card {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 29%;
+  margin: 15px 25px;
+  height: 230px;
+  display: inline-block;
+}
+
+.card h3 {
+  text-align: center;
+  margin-top: 12px;
+  font-size: 22px;
+  font-family: "Merriweather", serif;
+}
+
+.card-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* flex-direction: column; */
+}
+
+.card-img {
+  height: 150px;
+  padding: 0px 14px;
+}
+.card-img img {
+  height: inherit;
+  /* padding: 0px 14px; */
+}
+
+.card-content {
+  padding: 0px 5px;
+}
+
+.card-content p {
+  font-family: "Ubuntu", sans-serif;
+
+  font-size: 17px;
+}
+/* Third Section of the Page */
+#sponsorsSection {
+  height: 300px;
+  background-color: #f7d5d5d9;
+}
+
+#sponsorsSection h2 {
+  text-align: center;
+  padding-top: 30px;
+  margin-top: 26px;
+  font-family: "Ubuntu", sans-serif;
+}
+
+#sponsors {
+  height: 204px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.spimage {
+  height: 80%;
+  margin: 29px 20px;
+}
+
+#footer {
+  height: 40px;
+  background-color: black;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-size: 20px;
+  font-family: "Ubuntu", sans-serif;
+}

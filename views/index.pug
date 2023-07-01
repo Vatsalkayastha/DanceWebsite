@@ -1,0 +1,63 @@
+doctype html
+html
+  head
+    title Vatsal Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul
+            div#logo 
+                img(src="/static/img/logo.png", alt="Logo")
+                | VDA
+            li #[a(href='/') Home ]
+            li #[a(href='/') About ]
+            li #[a(href='/') Services ]
+            li #[a(href='/') Class Info ]
+            li #[a(href='/contact') Contact US ]
+ 
+    
+    section#introSection 
+        div Welcome to Vatsal Dance Academy
+        div.small Eat Sleep Dance Repeat
+
+    section#missionSection 
+        h2 Our Mission
+        div.card 
+            h3 Dancing Masterclass
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/1.png", alt="")
+
+                div.card-content
+                    p This is the best dance academy of the gujarat.
+        div.card 
+            h3 Dance as you wish
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/2.png", alt="")
+
+                div.card-content
+                    p Relax your stress and dance with the music
+        div.card 
+            h3 Expert Teaching
+            div.card-box 
+                div.card-img 
+                    img(src="/static/img/3.png", alt="")
+
+                div.card-content
+                    p Best instructors of the gujarat.
+
+    section#sponsorsSection 
+        h2 Our Sponsors
+        div#sponsors 
+            img(src="/static/img/logo1.png", alt="Sponsor Image" class="spimage")
+            img(src="/static/img/logo2.png", alt="Sponsor Image" class="spimage")
+            img(src="/static/img/logo3.png", alt="Sponsor Image" class="spimage")
+            img(src="/static/img/logo4.png", alt="Sponsor Image" class="spimage")
+
+    footer#footer
+        | Copyright &copy; 2023 VatsalDanceAcademy.com. | All rights Reserved.
+
+    script
+      include ../static/index.js
